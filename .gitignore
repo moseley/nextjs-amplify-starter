@@ -1,0 +1,46 @@
+# build output
+dist
+.next
+/out/
+/build
+
+# dependencies
+node_modules
+package-lock.json
+yarn.lock
+!/yarn.lock
+test/node_modules
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# logs & pids
+*.log
+pids
+
+# coverage
+coverage
+
+# test output
+test/**/out*
+test/**/next-env.d.ts
+/e2e-tests
+
+# misc
+.DS_Store
+*.pem
+
+# Vercel
+.vercel
+
+# Amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+aws-exports.js
+awsconfiguration.json
